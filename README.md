@@ -51,7 +51,8 @@ The structure of this project is as follows:
   - header  
   - photos  
     - photos-detail  
-    - photos-list  
+    - photos-list
+      - photos-location    
   - locations-list 
     - locations-edit   
 

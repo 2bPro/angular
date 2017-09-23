@@ -11,6 +11,7 @@ import { PhotosDetailComponent } from './photos/photos-detail/photos-detail.comp
 import { PhotosLocationComponent } from './photos/photos-list/photos-location/photos-location.component';
 import { LocationsListComponent } from './locations-list/locations-list.component';
 import { LocationsEditComponent } from './locations-list/locations-edit/locations-edit.component';
+import { PhotosItemComponent } from './photos/photos-list/photos-item/photos-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LocationsEditComponent } from './locations-list/locations-edit/location
     PhotosDetailComponent,
     PhotosLocationComponent,
     LocationsListComponent,
-    LocationsEditComponent
+    LocationsEditComponent,
+    PhotosItemComponent
   ],
   imports: [
     BrowserModule,

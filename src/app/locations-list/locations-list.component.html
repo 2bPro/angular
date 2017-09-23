@@ -2,6 +2,10 @@
 	<div class="col-xs-10">
 		<app-locations-edit></app-locations-edit>
 		<hr>
-		<p>The locations list</p>
+		<ul class="list-group">
+			<a class="list-group-item" style="cursor: pointer;" *ngFor="let location of locations">
+				{{ location.name }} ({{ location.city }}, {{ location.country }})
+			</a>
+		</ul>
 	</div>
 </div>
